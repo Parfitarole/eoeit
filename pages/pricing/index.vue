@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <h1>Pricing</h1>
+  <h1>Pricing page</h1>
 </template>
 
 <style scoped>
