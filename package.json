@@ -13,7 +13,7 @@
   "dependencies": {
     "@nuxt/image": "^1.5.0",
     "@nuxt/ui": "^2.15.2",
-    "@nuxtjs/google-analytics": "^2.4.0",
+    "@weareheavy/nuxt-cookie-consent": "^1.0.4",
     "nuxt": "^3.11.2",
     "nuxt-module-hotjar": "^1.2.5",
     "sharp": "0.28.3",
