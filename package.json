@@ -13,7 +13,6 @@
   "dependencies": {
     "@nuxt/image": "^1.5.0",
     "@nuxt/ui": "^2.15.2",
-    "@nuxtjs/google-analytics": "^2.4.0",
     "nuxt": "^3.11.2",
     "sharp": "0.28.3",
     "vue": "^3.4.21",
@@ -23,6 +22,7 @@
     "node": "20.x"
   },
   "devDependencies": {
+    "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/seo": "2.0.0-rc.10",
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
