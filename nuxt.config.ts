@@ -14,6 +14,7 @@ export default defineNuxtConfig({
     "@nuxt/image",
     '@nuxtjs/seo',
     "nuxt-module-hotjar",
+    '@nuxtjs/google-analytics'
   ],
   colorMode: {
     preference: 'dark'
@@ -22,6 +23,8 @@ export default defineNuxtConfig({
     hotjarId: 4953041,
     scriptVersion: 6,
     debug: false
+  },
+  googleAnalytics: {
+    id: 'G-8X0M04SQ9E'
   }
-
 })
