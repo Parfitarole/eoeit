@@ -31,11 +31,11 @@ const logo_src = computed(() => {
 </script>
 
 <template>
- <header class="w-full h-20">
+ <header class="w-full h-20 bg-[#070c27] shadow-xl">
    <div class="container mx-auto h-full flex items-center justify-between">
      <div class="h-full">
        <NuxtLink to="/" class="h-full">
-         <img class="h-full" :src="logo_src" alt="EOEIT Logo">
+         <img class="h-full py-4" :src="logo_src" alt="EOEIT Logo">
        </NuxtLink>
      </div>
 
