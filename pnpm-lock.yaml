@@ -11,6 +11,9 @@ dependencies:
   '@nuxt/ui':
     specifier: ^2.15.2
     version: 2.15.2(nuxt@3.11.2)(vite@5.2.10)(vue@3.4.23)
+  '@nuxtjs/google-analytics':
+    specifier: ^2.4.0
+    version: 2.4.0
   nuxt:
     specifier: ^3.11.2
     version: 3.11.2(@unocss/reset@0.59.4)(floating-vue@5.2.2)(unocss@0.59.4)(vite@5.2.10)
@@ -1533,6 +1536,12 @@ packages:
     transitivePeerDependencies:
       - rollup
       - supports-color
+
+  /@nuxtjs/google-analytics@2.4.0:
+    resolution: {integrity: sha512-rDQTwHIjyjVrx8GywHPuWykJ3jRFGaHl5Iqji/y8tQWUc0yGEeHxOoR0yimzxnTS1Ph2/PubQYpgnVeEPEdL/A==}
+    dependencies:
+      vue-analytics: 5.22.1
+    dev: false
 
   /@nuxtjs/seo@2.0.0-rc.10(@lezer/common@1.2.1)(@nuxt/devtools@1.2.0)(@unhead/shared@1.9.7)(@vue/compiler-core@3.4.23)(h3@1.11.1)(nuxt@3.11.2)(postcss@8.4.38)(unhead@1.9.7)(vite@5.2.10)(vue@3.4.23)(webpack@5.91.0):
     resolution: {integrity: sha512-tmzXlGY7TzPNUowej4tufsmEFWU+9ZBICoEjZbmQ8IwKhh/6EofPq22d/7yRP41jJuYPieGztX+F0Ue9+7x2mg==}
@@ -8895,6 +8904,11 @@ packages:
 
   /vscode-uri@3.0.8:
     resolution: {integrity: sha512-AyFQ0EVmsOZOlAnxoFOGOq1SQDWAB7C6aqMGS23svWAllfOaxbuFvcT8D1i8z3Gyn8fraVeZNNmN6e9bxxXkKw==}
+
+  /vue-analytics@5.22.1:
+    resolution: {integrity: sha512-HPKQMN7gfcUqS5SxoO0VxqLRRSPkG1H1FqglsHccz6BatBatNtm/Vyy8brApktZxNCfnAkrSVDpxg3/FNDeOgQ==}
+    deprecated: Sorry but vue-analytics is no longer maintained. I would suggest you switch to vue-gtag, with love, the guy who made the package.
+    dev: false
 
   /vue-bundle-renderer@2.0.0:
     resolution: {integrity: sha512-oYATTQyh8XVkUWe2kaKxhxKVuuzK2Qcehe+yr3bGiaQAhK3ry2kYE4FWOfL+KO3hVFwCdLmzDQTzYhTi9C+R2A==}
