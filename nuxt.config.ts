@@ -26,7 +26,9 @@ export default defineNuxtConfig({
     debug: false
   },cookieConsent: {
     provider: 'cookiebot',
-    cbid: '57dd516e-3b9e-4f59-a58e-ed53fbfbe378'
+    cbid: '57dd516e-3b9e-4f59-a58e-ed53fbfbe378',
+    consentMode: false,
+    consentModeDefaults: false,
   }
 
 })
