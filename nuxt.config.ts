@@ -10,11 +10,12 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ["@nuxt/ui",
+  modules: [
+    "@nuxt/ui",
     "@nuxt/image",
     '@nuxtjs/seo',
     "nuxt-module-hotjar",
-    '@nuxtjs/google-analytics'
+    "@weareheavy/nuxt-cookie-consent"
   ],
   colorMode: {
     preference: 'dark'
@@ -23,8 +24,9 @@ export default defineNuxtConfig({
     hotjarId: 4953041,
     scriptVersion: 6,
     debug: false
-  },
-  googleAnalytics: {
-    id: 'G-8X0M04SQ9E'
+  },cookieConsent: {
+    provider: 'cookiebot',
+    cbid: '57dd516e-3b9e-4f59-a58e-ed53fbfbe378'
   }
+
 })
