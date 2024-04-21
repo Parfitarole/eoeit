@@ -9,9 +9,7 @@ const logo_src = computed(() => {
 </script>
 
 <template>
-  <LazyUDivider class="my-3" size="xs" avater="/favicon.ico"/>
-
-  <footer class="h-96 w-full">
+  <footer class="h-96 w-full bg-[#070c27] py-6 shadow-xl">
     <div class="container mx-auto h-full">
       <div class="grid grid-cols-4">
         <div>
@@ -40,13 +38,11 @@ const logo_src = computed(() => {
         </div>
       </div>
     </div>
-
-    <LazyUDivider class="mt-3" size="xs" avater="/favicon.ico"/>
-
-    <div class="flex items-center justify-center py-6">
-      <p>Copyright &copy; {{ new Date().getFullYear() }} EOEIT.uk &bull; All Rights Reserved</p>
-    </div>
-
-    <LazyUDivider size="xs" avater="/favicon.ico"/>
   </footer>
+
+  <div class="flex items-center justify-center h-20 bg-black">
+    <p>
+      Copyright &copy; {{ new Date().getFullYear() }} EOEIT.uk &bull; All Rights Reserved
+    </p>
+  </div>
 </template>
