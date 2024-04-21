@@ -14,12 +14,8 @@ export default defineNuxtConfig({
     "@nuxt/ui",
     "@nuxt/image",
     '@nuxtjs/seo',
-    '@nuxtjs/google-analytics'
   ],
   colorMode: {
     preference: 'dark'
   },
-  googleAnalytics: {
-    id: '7834321157'
-  }
 })
