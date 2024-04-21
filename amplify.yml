@@ -5,10 +5,11 @@ frontend:
       commands:
         - npm install -g pnpm
         - corepack enable
-        - pnpm install
+        - npx --yes nypm i
     build:
       commands:
         - pnpm run build
+        - pnpm run start
   artifacts:
     baseDirectory: .amplify-hosting
     files:

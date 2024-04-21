@@ -22,7 +22,6 @@
     "node": "20.x"
   },
   "devDependencies": {
-    "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/seo": "2.0.0-rc.10",
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
