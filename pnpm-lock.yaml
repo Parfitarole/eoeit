@@ -14,6 +14,9 @@ dependencies:
   nuxt:
     specifier: ^3.11.2
     version: 3.11.2(@unocss/reset@0.59.4)(floating-vue@5.2.2)(unocss@0.59.4)(vite@5.2.10)
+  nuxt-module-hotjar:
+    specifier: ^1.2.5
+    version: 1.2.5
   sharp:
     specifier: 0.28.3
     version: 0.28.3
@@ -856,6 +859,10 @@ packages:
     dependencies:
       '@tanstack/vue-virtual': 3.4.0(vue@3.4.23)
       vue: 3.4.23
+    dev: false
+
+  /@hotjar/browser@1.0.9:
+    resolution: {integrity: sha512-n9akDMod8BLGpYEQCrHwlYWWd63c1HlhUSXNIDfClZtKYXbUjIUOFlNZNNcUxgHTCsi4l2i+SWKsGsO0t93S8w==}
     dev: false
 
   /@iconify-json/carbon@1.1.31:
@@ -6229,6 +6236,16 @@ packages:
       - vue
       - webpack
     dev: true
+
+  /nuxt-module-hotjar@1.2.5:
+    resolution: {integrity: sha512-jH3uC2e1piDOrZSuyEHkk7VMDltFGC7Y+6mYViExeA9l2+/tlayUoDXohOdqulTeljzaAKicesPzr26FchGqRQ==}
+    dependencies:
+      '@hotjar/browser': 1.0.9
+      '@nuxt/kit': 3.11.2
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+    dev: false
 
   /nuxt-og-image@3.0.0-rc.52(@lezer/common@1.2.1)(@nuxt/devtools@1.2.0)(@vue/compiler-core@3.4.23)(nuxt@3.11.2)(postcss@8.4.38)(vite@5.2.10)(vue@3.4.23)(webpack@5.91.0):
     resolution: {integrity: sha512-uQUYZ6/2f7z6fjoWQaB1y+A/kGYYthzxKScrmuhAPKAC3gvTNlm7PXundWJ1nf+vHNIngwj570Mj2xDWDOx2Ig==}
