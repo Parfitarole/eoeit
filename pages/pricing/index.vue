@@ -1,11 +1,3 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
-  <h1>Pricing page</h1>
+  <LazyUnderConstruction />
 </template>
-
-<style scoped>
-
-</style>

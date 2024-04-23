@@ -4,17 +4,17 @@ const links = [
     label: 'Home',
     to: '/'
   }, {
+    label: 'Pricing',
+    to: '/pricing'
+  },{
     label: 'Our Services',
     to: '/our-services'
   }, {
-    label: 'Pricing',
-    to: '/pricing'
+    label: 'About Us',
+    to: '/about-us'
   }, {
     label: 'Our Clients',
     to: '/our-clients'
-  }, {
-    label: 'About Us',
-    to: '/about-us'
   }, {
     label: 'Contact Us',
     to: '/contact-us'
@@ -31,7 +31,7 @@ const logo_src = computed(() => {
 </script>
 
 <template>
- <header class="w-full h-20 bg-[#070c27] shadow-xl">
+ <header class="w-full h-20 bg-[#D3D3D3] dark:bg-[#1e1f22] shadow-2xl">
    <div class="container mx-auto h-full flex items-center justify-between">
      <div class="h-full">
        <NuxtLink to="/" class="h-full">
