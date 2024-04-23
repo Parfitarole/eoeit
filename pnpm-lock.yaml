@@ -37,6 +37,9 @@ devDependencies:
   autoprefixer:
     specifier: ^10.4.19
     version: 10.4.19(postcss@8.4.38)
+  nuxt-icon:
+    specifier: ^0.6.10
+    version: 0.6.10(nuxt@3.11.2)(vite@5.2.10)(vue@3.4.23)
   postcss:
     specifier: ^8.4.38
     version: 8.4.38

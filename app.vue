@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div class="dark:bg-[#0b103a]">
+  <div class="dark:bg-[#313338]">
     <LazyAppHeader/>
     <div class="min-h-screen">
       <NuxtPage />
