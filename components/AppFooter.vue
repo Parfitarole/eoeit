@@ -17,9 +17,9 @@ const logo_src = computed(() => {
             <img :src="logo_src" alt="EOEIT Logo">
           </NuxtLink>
 
-          <h3 class="mt-3">
+          <h2 class="mt-3">
 <!--            Follow us on-->
-          </h3>
+          </h2>
         </div>
 
         <div>

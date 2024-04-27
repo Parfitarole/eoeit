@@ -23,7 +23,8 @@ export default defineNuxtConfig({
     "@nuxt/image",
     '@nuxtjs/seo',
     "nuxt-module-hotjar",
-    "@weareheavy/nuxt-cookie-consent"
+    "@weareheavy/nuxt-cookie-consent",
+    'nuxt-gtag'
   ],
   colorMode: {
     preference: 'dark'
@@ -38,5 +39,8 @@ export default defineNuxtConfig({
     cbid: '57dd516e-3b9e-4f59-a58e-ed53fbfbe378',
     consentMode: false,
     consentModeDefaults: false,
-  }
+  },
+  gtag: {
+    id: 'G-8X0M04SQ9E',
+  },
 })
