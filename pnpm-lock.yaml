@@ -37,6 +37,9 @@ devDependencies:
   autoprefixer:
     specifier: ^10.4.19
     version: 10.4.19(postcss@8.4.38)
+  nuxt-gtag:
+    specifier: ^2.0.5
+    version: 2.0.5
   postcss:
     specifier: ^8.4.38
     version: 8.4.38
@@ -6192,6 +6195,18 @@ packages:
     hasBin: true
     optionalDependencies:
       fsevents: 2.3.3
+
+  /nuxt-gtag@2.0.5:
+    resolution: {integrity: sha512-RX/52eXufjly/Y7PJKRLGLBQhI73SnmzcLoI4pjEJIVsEVpIXJLkAwHtKY3HvU8KiV0ai4UE3Cn1xB6ncoiFaA==}
+    dependencies:
+      '@nuxt/kit': 3.11.2
+      defu: 6.1.4
+      pathe: 1.1.2
+      ufo: 1.5.3
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+    dev: true
 
   /nuxt-icon@0.6.10(nuxt@3.11.2)(vite@5.2.10)(vue@3.4.23):
     resolution: {integrity: sha512-S9zHVA66ox4ZSpMWvCjqKZC4ZogC0s2z3vZs+M4D95YXGPEXwxDZu+insMKvkbe8+k7gvEmtTk0eq3KusKlxiw==}
